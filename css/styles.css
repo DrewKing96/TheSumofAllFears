@@ -1,0 +1,18 @@
+body {
+	background-image: radial-gradient(circle, #053907, #084808, #0c5708, #106709, #167809);
+}
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+img {
+	padding: 5px;
+}
+
+.overall {
+	text-align: left;
+	color: #fff;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
