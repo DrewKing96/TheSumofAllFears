@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>The Sum of All Fears</title>
+		<script type="text/javascript" src="SumofAllFears.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="styles.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="container ml-0">
+			<div class="container ml-0 overall">
+				<div class="container ml-0 info">
+					<img src="logo.png" class="responsive">
+					<p>Given a list of numbers and a number n, return any two numbers from the list that add up to n. For example, given [10, 15, 3, 7] and n of 17, return 'true' since <em>10+7=17</em>. The initial list to be used is [10, 15, 3, 7], however you may create a random list by pressing the Random List button. You may enter a value for n below, or generate a random n value by pressing the Random Number button.</p>
+				</div>
+				<div class="container ml-0">
+					<label><span>Enter a Number: </span><input type="textbox" name="value" id="value" value=''></label>
+				</div>
+				<div class="container ml-0">
+					<label><input type="submit" onclick="displaySum()" value="Find It"></label>
+					<span><input type="submit" onclick="reset()" value="Reset"></span>
+				</div>
+				<div class="container ml-0">
+					
+					<span><input type="submit" onclick="getRandomValue()" value="Random Number"></span>
+					<span><input type="submit" onclick="getRandomArray()" value="Random Array"></span>
+				</div>
+				<div class="container ml-0">
+					<span>Array: <div id="givenArray">---</div></span>
+				</div>
+				<div class="container ml-0">
+					<span>Result: <div id="result"></div></span>
+				</div>
+
+				<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+			</div>
+		</div>
+	</body>
+</html>
